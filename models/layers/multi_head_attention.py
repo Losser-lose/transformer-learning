@@ -1,7 +1,8 @@
 import torch.nn as nn
+import os
+import sys
 
-print(__file__)
-from models.layers.scale_dot_product_attention import ScaleDotProductAttention
+from scale_dot_product_attention import ScaleDotProductAttention
 
 
 class MultiHeadAttention(nn.Module):
